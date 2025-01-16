@@ -1,0 +1,7 @@
+/* Suppression des styles par défaut qui causent des problèmes de mise en page */
+#root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}

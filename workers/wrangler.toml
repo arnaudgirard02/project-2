@@ -1,0 +1,30 @@
+# Worker configuration
+name = "iteach-gpt"
+main = "src/index.js"
+compatibility_date = "2024-01-01"
+
+# Development configuration
+[dev]
+port = 8787
+
+# Environment variables
+[vars]
+API_KEY = "UB1sUHdHRL0xi-M96oTo3NRGXFEITveZzWDuKu1q"
+
+# Example secrets (for development)
+# In production, set these through the Cloudflare dashboard
+[vars.development]
+FIREBASE_API_KEY = "test-api-key"
+FIREBASE_AUTH_DOMAIN = "test.firebaseapp.com"
+FIREBASE_DATABASE_URL = "https://test.firebaseio.com"
+FIREBASE_PROJECT_ID = "test-project"
+FIREBASE_STORAGE_BUCKET = "test.appspot.com"
+FIREBASE_MESSAGING_SENDER_ID = "123456789"
+FIREBASE_APP_ID = "1:123456789:web:abcdef"
+FIREBASE_MEASUREMENT_ID = "G-TEST123"
+OPENAI_API_KEY = "test-openai-key"
+STRIPE_PUBLISHABLE_KEY = "pk_test_123"
+STRIPE_SECRET_KEY = "sk_test_123"
+STRIPE_WEBHOOK_SECRET = "whsec_123"
+STRIPE_PREMIUM_PRICE_ID = "price_123"
+STRIPE_PRO_PRICE_ID = "price_456"

@@ -1,0 +1,15 @@
+{
+  "name": "iteach-worker",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "esbuild src/index.js --bundle --outfile=dist/index.js --format=esm --platform=neutral",
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "esbuild": "^0.20.1",
+    "wrangler": "^3.30.1"
+  }
+}
